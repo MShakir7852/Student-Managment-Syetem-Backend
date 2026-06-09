@@ -3,6 +3,8 @@ import {
   createTeacher,
   getTeacher,
   getAllTeachers,
+  updateTeacher,
+  deleteTeacher,
 } from "../controllers/teacher-controller.js";
 
 import { protect } from "../middleware/authMiddleware.js";

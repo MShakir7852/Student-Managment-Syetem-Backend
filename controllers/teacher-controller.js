@@ -35,7 +35,7 @@ export const getAllTeachers = async (req, res) => {
 };
 
 
-export const getTeacherById = async (req, res) => {
+export const getTeacher = async (req, res) => {
   try {
     const teacher = await Teacher.findById(req.params.id).populate("user");
 
