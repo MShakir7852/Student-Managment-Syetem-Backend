@@ -2,6 +2,9 @@ import express from "express";
 import {
   createCourse,
   getCourses,
+  getSingleCourse,
+  updateCourse,
+  deleteCourse,
   enrollStudent,
 } from "../controllers/course-controllers.js";
 

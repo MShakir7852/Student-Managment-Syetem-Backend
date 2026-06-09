@@ -1,7 +1,10 @@
 import express from "express";
 import {
   createAssignment,
+  getSingleAssignment,
   submitAssignment,
+  updateAssignment,
+  deleteAssignment,
   getAssignments,
 } from "../controllers/assignment-controllers.js";
 

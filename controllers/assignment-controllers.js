@@ -37,7 +37,7 @@ export const getAssignments = async (req, res) => {
   }
 };
 
-export const getAssignmentById = async (req, res) => {
+export const getSingleAssignment = async (req, res) => {
   try {
     const assignment = await Assignment.findById(req.params.id)
       .populate("course")

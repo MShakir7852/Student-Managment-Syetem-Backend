@@ -4,6 +4,7 @@ import {
   getStudent,
   updateStudent,
   getAllStudents,
+  deleteStudent,
 } from "../controllers/student-controler.js";
 
 import { protect } from "../midleware/auth-midleware.js";
